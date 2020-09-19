@@ -1,0 +1,96 @@
+body {
+  background-color: #bfb2f7;
+  background-image: url("img/pexels-bruno-thethe-1910236.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 140%;
+}
+
+a {
+  text-decoration: none;
+  color: #b08ddf
+}
+
+a:focus,
+a:hover {
+  display: inline-block;
+  color: #fa2e63;
+  transform: scale(1.1);
+}
+
+a:active {
+  opacity: 0.7;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  width: 1360px;
+  margin: 0 auto;
+  padding: 35px;
+  background-color: #2b2156;
+  margin-top: 25px;
+  border: 5px solid #ed286f;
+  border-radius: 15px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar img {
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin-right: 70px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 75px;
+}
+
+h2 {
+  font-size: 36px;
+  color: #ffb949;
+}
+
+.phone,
+.email {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.phone p,
+.email p {
+  margin-right: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.tools {
+  margin-left: 150px;
+}
+
+.projects-item {
+  margin-top: 15px;
+}
+
+pre {
+  font-size: 18px;
+}
