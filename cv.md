@@ -1,9 +1,9 @@
 # Irina Ramitsan
 
 ## Contacts
-### Telephone number: +375 (33) 696 15 22
-### Email: ramitsan@gmail.com
-### GitHub: https://github.com/Ramitsan
+**Telephone number:** +375 (33) 696 15 22 \ 
+**Email:** ramitsan@gmail.com \
+**GitHub:** https://github.com/Ramitsan
 
 ## Summary
 I am a beginner frontend-developer, interested in new web-technologies. I like creating attractive, user-friendly sites with modern design. I have been constantly educating myself, improving my hard&soft skills,
@@ -40,7 +40,7 @@ I like to work in a team and communicate with new people.
 
 
 ## Code Examples
-`
+```
 xhr.addEventListener('load', function () {
       switch (xhr.status) {
         case REQUEST_STATUS_OK:
@@ -58,9 +58,9 @@ xhr.addEventListener('load', function () {
         default:
           onError('При загрузке произошла ошибка ' + xhr.status + '. Повторите попытку позже.');
       }
-`
+```
 
-`
+```
 <a class="page-header__logo">
             <picture>
               <source type="image/webp" media="(max-width: 767px)" srcset="img/logo-header-mobile@1x.webp 1x, img/logo-header-mobile@2x.webp 2x">
@@ -71,7 +71,7 @@ xhr.addEventListener('load', function () {
               <img class="logo-image" src="img/logo-header-desktop@1x.png" srcset="img/logo-header-desktop@2x.png 2x" alt="Логотип компании">
             </picture>
           </a>
-`
+```
 
 
 
