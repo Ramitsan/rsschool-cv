@@ -1,7 +1,7 @@
 # Irina Ramitsan
 
 ## Contacts
-**Telephone number:** +375 (33) 696 15 22 \ 
+**Telephone number:** +375 (33) 696 15 22 \
 **Email:** ramitsan@gmail.com \
 **GitHub:** https://github.com/Ramitsan
 

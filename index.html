@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>HTML, CSS & Git Basics task</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="avatar">
+        <img src="img/avatar.jpg" width="300" height="auto" alt="avatar">
+      </div>
+      <div class="contacts">
+        <h1>Irina Ramitsan</h1>
+        <div class="contacts-info">
+          <h2>Contacts</h2>
+          <div class="phone">
+            <p>Telephone number:</p>
+            <a href="tel:+375 33 6961522">+375 33 6961522</a>
+          </div>
+          <div class="email">
+            <p>Email: </p>
+            <a href="mailto:ramitsan@gmail.com">ramitsan@gmail.com</a>
+          </div>
+          <div class="github-link">
+            <a href="https://github.com/Ramitsan" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="summary">
+        <h2>Summary</h2>
+        <p class="summary-info">
+          I am a beginner frontend-developer, interested in new web-technologies. I like creating attractive, user-friendly sites with modern design. I have been constantly educating myself, improving my hard&soft skills. I like to work in a team and communicate
+          with new people.
+        </p>
+      </section>
+      <div class="container">
+        <section class="skills">
+          <h2>Skills</h2>
+          <ul class="skills-list">
+            <li class="skills-item">HTML5</li>
+            <li class="skills-item">CSS3</li>
+            <li class="skills-item">JavaScript</li>
+            <li class="skills-item">jQuery</li>
+            <li class="skills-item">BEM</li>
+            <li class="skills-item">SASS (SCSS)</li>
+            <li class="skills-item">Accessibility (a11y)</li>
+            <li class="skills-item">Bootstrap</li>
+          </ul>
+        </section>
+        <section class="tools">
+          <h2>Tools</h2>
+          <ul class="tools-list">
+            <li class="tools-item">Git</li>
+            <li class="tools-item">VS Code</li>
+            <li class="tools-item">npm</li>
+            <li class="tools-item">Adobe Photoshop, Lightroom, Figma, Zeplin</li>
+            <li class="tools-item">Dev Tools</li>
+            <li class="tools-item">Gulp</li>
+            <li class="tools-item">Pixel Perfect</li>
+            <li class="tools-item">WebP</li>
+          </ul>
+        </section>
+      </div>
+      <section class="my-projects">
+        <h2>My projects</h2>
+        <ul class="projects-list">
+          <li class="projects-item"><a href="https://ramitsan.github.io/Technomart/" target="_blank">Technomart</a></li>
+          <li class="projects-item"><a href="https://ramitsan.github.io/Pink/" target="_blank">Pink</a></li>
+          <li class="projects-item"><a href="https://github.com/Ramitsan/Kekstagram" target="_blank">Kekstagram</a></li>
+          <li class="projects-item"><a href="https://ramitsan.github.io/Israel/" target="_blank">Israel</a></li>
+          <li class="projects-item"><a href="https://lib.vsu.by/web_resurs/victory75/index.html" target="_blank">Victory</a></li>
+        </ul>
+      </section>
+      <section class="code-examples">
+        <h2>Code Examples</h2>
+        <pre>
+            xhr.addEventListener('load', function () {
+                switch (xhr.status) {
+                  case REQUEST_STATUS_OK:
+                    onLoad(xhr.response);
+                    break;
+                  case REQUEST_STATUS_BAD:
+                    onError('Неправильный запрос.  Код ошибки ' + xhr.status);
+                    break;
+                  case REQUEST_STATUS_NOT_FOUND:
+                    onError('Страница не найдена. Код ошибки ' + xhr.status);
+                    break;
+                  case REQUEST_STATUS_SERVER_ERROR:
+                    onError('Внутренняя ошибка сервера. Код ошибки ' + xhr.status);
+                    break;
+                  default:
+                    onError('При загрузке произошла ошибка ' + xhr.status + '. Повторите попытку позже.');
+                }
+              });           
+                  
+              </pre>
+      </section>
+      <section class="work-and-education">
+        <h2>Work experience</h2>
+        <p>Software engineer in Vitebsk State University after P.M.Masherov.</p>
+        <h2>Education</h2>
+        <ul>
+          <li>Vitebsk State University after P.M.Masherov(Philological Faculty)</li>
+          <li>Vitebsk State Technological University (Software of Information Systems)</li>
+        </ul>
+        <h2>Courses</h2>
+        <ul class="courses-list">
+          <li class="courses-item">HTML Acafemy. Professional HTML & CSS, level 1 - 2019</li>
+          <li class="courses-item">HTML Acafemy. Professional HTML & CSS, level 2 - 2019</li>
+          <li class="courses-item">HTML Acafemy. Professional JavaScript, level 1 - 2019</li>
+          <li class="courses-item">HTML Acafemy. JavaScript. Professional development of web interfaces ( in progress ) - 2020;</li>
+          <li class="courses-item">CS50 Harvard University ( in progress ) - 2020;</li>
+          <li class="courses-item">Rolling Scopes School (in progress) - 2020;</li>
+        </ul>
+        <h2>English</h2>
+        <p>Pre-intermediate (A2).</p>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>
