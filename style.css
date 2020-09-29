@@ -18,7 +18,7 @@ a:focus,
 a:hover {
   display: inline-block;
   color: #fa2e63;
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
 }
 
 a:active {
@@ -87,10 +87,37 @@ h2 {
   margin-left: 150px;
 }
 
+.projects-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .projects-item {
+  width: 30%;
+  background-color: #fff;
   margin-top: 15px;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
 }
 
 pre {
   font-size: 18px;
+}
+
+.technology {
+  width: 350px;
+  margin: 0 auto;
+  color: #2b2156;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
 }
